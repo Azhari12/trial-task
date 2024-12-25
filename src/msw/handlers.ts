@@ -1,9 +1,8 @@
 import { graphql, HttpResponse } from "msw";
 
-// Mock API untuk GraphQL Login
 export const handlers = [
 	graphql.mutation("login", ({ variables }) => {
-		const { email, password } = variables; // Destructuring variables from request
+		const { email, password } = variables;
 
 		if (email === "john@mail.com" && password === "changeme") {
 			return HttpResponse.json({
