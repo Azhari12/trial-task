@@ -28,8 +28,6 @@ export const useUserSuspenseQuery = () => {
 
 	useEffect(
 		() => {
-			console.log(query.data);
-
 			if (query.data) {
 				dispatch(setUser(query.data.user));
 			} else {

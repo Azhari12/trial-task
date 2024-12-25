@@ -5,7 +5,6 @@ export const handlers = [
 	graphql.mutation("login", ({ variables }) => {
 		const { email, password } = variables; // Destructuring variables from request
 
-		console.log("jalan");
 		if (email === "john@mail.com" && password === "changeme") {
 			return HttpResponse.json({
 				data: {

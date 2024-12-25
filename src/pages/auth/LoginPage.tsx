@@ -49,7 +49,6 @@ const LoginPage = () => {
 		async mutationFn(query: any) {
 			try {
 				const apiResponse = (await client.request(query)) as LoginResponseType;
-				console.log(apiResponse);
 				TokenManager.saveToken(apiResponse.login.access_token);
 				toast.success(t("success.login"));
 				setError(false);
