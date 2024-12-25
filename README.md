@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Trial Task-Azhari Aziz
 
-Currently, two official plugins are available:
+## 📑 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Credential:
+- email: john@mail.com
+- password: changeme
 
-## Expanding the ESLint configuration
+## 🌐 Deployment
+- [Vercel](https://sims-ppob-azhari-aziz.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🔮 Features
+- Login Page
+- Account Page
+- Login
+- Logout
+- Localization
+ 
+## 🧰 Installation
 
-- Configure the top-level `parserOptions` property like this:
+Clone this project
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/Azhari12/trial-task.git
+cd trial-task
+```
+⌛ Install
+```bash
+npm install
+```
+🚀 Usage
+```bash
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🛠️ Built With
+- [Vite ReactJs](https://vite.dev/)
+- [TailWindCss](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/en/main)
+- [Redux](https://redux-toolkit.js.org/)
+- [Shadcn](https://ui.shadcn.com/)
+- [graphql](https://axios-http.com)
+- [React Query](https://tanstack.com/query)
+- [Date Fns](https://github.com/date-fns/date-fns)
+- [React Cookie](https://github.com/bendotcodes/cookies/tree/main/packages/react-cookie/#readme)
+- [React Hook Form](https://www.react-hook-form.com)
+- [React Spinner](https://www.davidhu.io/react-spinners/)
+- [Zod](https://zod.dev)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🤖 Author
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [@Azhari12](https://github.com/Azhari12)
+
+
