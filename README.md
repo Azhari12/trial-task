@@ -7,7 +7,7 @@
 
 ## 🌐 Deployment
 
-- [Vercel](https://sims-ppob-azhari-aziz.vercel.app/)
+- [Vercel](https://trial-task-lac.vercel.app/)
 
 ## 🔮 Features
 

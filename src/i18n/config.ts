@@ -27,8 +27,8 @@ i18n.use(initReactI18next).init({
 				},
 				account: {
 					account: "Account",
-					id: "Account ID",
-					name: "Account Name",
+					id: "User Id",
+					name: "Name",
 					logout: "Logout",
 				},
 				error: {
@@ -53,8 +53,8 @@ i18n.use(initReactI18next).init({
 				},
 				account: {
 					account: "Akun",
-					id: "ID Akun",
-					name: "Nama Akun",
+					id: "Id Pengguna",
+					name: "Nama",
 					logout: "Logout",
 				},
 				error: {
@@ -79,8 +79,8 @@ i18n.use(initReactI18next).init({
 				},
 				account: {
 					account: "Konto",
-					id: "Konto-ID",
-					name: "Kontoname",
+					id: "Benutzer Id",
+					name: "Name",
 					logout: "Ausloggen",
 				},
 				error: {
@@ -106,8 +106,8 @@ i18n.use(initReactI18next).init({
 				},
 				account: {
 					account: "アカウント",
-					id: "アカウントID",
-					name: "アカウント名",
+					id: "ユーザー ID",
+					name: "名前",
 					logout: "ログアウト",
 				},
 				error: {
