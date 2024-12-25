@@ -1,8 +1,6 @@
 # Trial Task-Azhari Aziz
 
-## 📑 Description
-
-Credential:
+## 🔑 Credential
 
 - email: john@mail.com
 - password: changeme
