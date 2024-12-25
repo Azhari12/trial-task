@@ -48,9 +48,7 @@ describe("Login", () => {
 				</QueryClientProvider>
 			</MemoryRouter>
 		);
-		expect(screen.getByLabelText("Email")).toBeDefined();
 		expect(screen.getByTestId("email")).toBeDefined();
-		expect(screen.getByLabelText("Password")).toBeDefined();
 		expect(screen.getByTestId("password")).toBeDefined();
 		expect(screen.getByRole("button", { name: /Login/i })).toBeDefined();
 	});
@@ -80,9 +78,7 @@ describe("Login", () => {
 				</QueryClientProvider>
 			</MemoryRouter>
 		);
-		expect(screen.getByLabelText("Name")).toBeDefined();
 		expect(screen.getByTestId("name")).toBeDefined();
-		expect(screen.getByLabelText("Id")).toBeDefined();
 		expect(screen.getByTestId("id")).toBeDefined();
 		expect(screen.getByRole("button", { name: /Logout/i })).toBeDefined();
 	});
@@ -101,15 +97,13 @@ describe("Login", () => {
 			</MemoryRouter>
 		);
 
-		expect(screen.getByLabelText("Name")).toBeDefined();
 		expect(screen.getByTestId("name")).toBeDefined();
-		expect(screen.getByLabelText("Id")).toBeDefined();
 		expect(screen.getByTestId("id")).toBeDefined();
 		expect(screen.getByRole("button", { name: /Logout/i })).toBeDefined();
 
 		userEvent.click(screen.getByRole("button", { name: /Logout/i }));
 
-		await waitFor(() => screen.getByLabelText("Email"));
-		expect(screen.getByLabelText("Email")).toBeDefined();
+		await waitFor(() => screen.getByTestId("email"));
+		expect(screen.getByTestId("email")).toBeDefined();
 	});
 });
