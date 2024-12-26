@@ -29,7 +29,7 @@ export const useUserSuspenseQuery = () => {
 	useEffect(
 		() => {
 			if (query.data) {
-				dispatch(setUser(query.data.user));
+				dispatch(setUser(query.data.myProfile));
 			} else {
 				toast.error(t("error.data"));
 			}
